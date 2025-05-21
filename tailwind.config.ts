@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for disaster management app
+				emergency: {
+					50: '#FFEAEA',
+					100: '#FFCCCC',
+					200: '#FF9999',
+					300: '#FF6666',
+					400: '#FF3333',
+					500: '#D32F2F', // Emergency Red
+					600: '#B71C1C',
+					700: '#8E0000',
+					800: '#660000',
+					900: '#3D0000',
+				},
+				alert: {
+					50: '#FFF8E1',
+					100: '#FFECB3',
+					200: '#FFE082',
+					300: '#FFD54F',
+					400: '#FFCA28',
+					500: '#FF9800', // Alert Orange
+					600: '#FB8C00',
+					700: '#F57C00',
+					800: '#EF6C00',
+					900: '#E65100',
+				},
+				safety: {
+					50: '#E3F2FD',
+					100: '#BBDEFB',
+					200: '#90CAF9',
+					300: '#64B5F6',
+					400: '#42A5F5',
+					500: '#1976D2', // Safety Blue
+					600: '#1565C0',
+					700: '#0D47A1',
+					800: '#0A2F73',
+					900: '#051747',
 				}
 			},
 			borderRadius: {
